@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">baitaplonandroid</string>
+    <string name="action_search">Search</string>
+    <string name="action_sort">Sort</string>
+    <string name="action_home">Home</string>
+    <string name="action_fav">Yêu thích</string>
+    <string name="action_contact">Liên hệ</string>
+    <string name="action_Log">Tài khoản</string>
+    <string name="com_bo">Cơm dưa bò</string>
+    <string name="tieu_de">Cơm rất ngon</string>
+    <string name="cost_rice">Giá: 30.000VNĐ</string>
+    <string name="banner_ad_id">testw6vs28auh3</string>
+</resources>

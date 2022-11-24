@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search_icon"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+
+    </item>
+
+
+
+<!--    <item-->
+<!--        android:id="@+id/sort"-->
+<!--        android:title="@string/action_sort"-->
+<!--        app:showAsAction="always"-->
+<!--        >-->
+
+<!--    </item>-->
+
+    <item
+        android:id="@+id/sortNameA_Z"
+        android:title="Sắp xếp A-Z">
+
+    </item>
+
+    <item
+        android:id="@+id/sortNameZ_A"
+        android:title="Sắp xếp Z-A">
+
+    </item>
+
+    <item
+        android:id="@+id/sortCostTangDan"
+        android:title="Sắp xếp tăng dần">
+
+    </item>
+
+    <item
+        android:id="@+id/sortCostGiamDan"
+        android:title="Sắp xếp giảm dần">
+
+    </item>
+
+</menu>

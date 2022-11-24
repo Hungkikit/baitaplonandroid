@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "601387162663",
+    "project_id": "btlanroid",
+    "storage_bucket": "btlanroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601387162663:android:7a85067565934ad9e90202",
+        "android_client_info": {
+          "package_name": "com.example.baitaplonandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601387162663-vcajh2tujn0mu401pm6jo3lhs0mo9b5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVEu7ZGSc0bVGus_7flNzLU76lMJwtkqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601387162663-vcajh2tujn0mu401pm6jo3lhs0mo9b5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

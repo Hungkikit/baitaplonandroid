@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".View.Layout.BuyLayout">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:id="@+id/Top_nav"
+        android:background="#00FF00">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginLeft="3dp"
+            android:src="@drawable/back"
+            android:id="@+id/backward">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Giỏ hàng"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            />
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/Top_nav">
+    <EditText
+        android:id="@+id/Dia_chi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Hãy nhập địa chỉ"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp">
+
+    </EditText>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewCart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn_thanhtoan"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="THANH TOÁN"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="left"
+            android:layout_marginBottom="60dp"
+            android:text="Tổng Tiền:"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/totalAmountProducts"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="right"
+            android:layout_marginBottom="60dp"
+            android:text="TextView"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

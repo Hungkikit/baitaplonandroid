@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/sortNameA_Z"
+        android:title="Sắp xếp A-Z">
+
+    </item>
+
+    <item
+        android:id="@+id/sortNameZ_A"
+        android:title="Sắp xếp Z-A">
+
+    </item>
+
+    <item
+        android:id="@+id/sortCostTangDan"
+        android:title="Sắp xếp tăng dần">
+
+    </item>
+
+    <item
+        android:id="@+id/sortCostGiamDan"
+        android:title="Sắp xếp giảm dần">
+
+    </item>
+
+
+
+
+</menu>

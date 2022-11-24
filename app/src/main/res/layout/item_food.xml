@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="10dp">
+
+    <ImageView
+        android:id="@+id/img_Com"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:src="@drawable/com_dua_bo">
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/img_Com"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/com_bo"
+            android:textSize="16dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/tieu_de"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tieu_de"
+            android:textSize="16dp">
+
+        </TextView>
+        <TextView
+            android:id="@+id/cost_rice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_rice"
+            android:textSize="16dp">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
